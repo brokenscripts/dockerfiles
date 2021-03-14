@@ -23,13 +23,14 @@ If host is using PulseAudio (Ubuntu) then add these lines to `docker run` to mak
 --group-add $(getent group audio | cut -d: -f3)
 ```
 
-# Xephyr  
-> Xephyr is a nested X server that runs as an X application  
-> https://wiki.archlinux.org/index.php/Xephyr  
-
-This is my favorite way of using a container like a full blown virtual machine.  Refer to the README, using Kali as an example.  
-
+------
 
 # Dockerfile builds
 ## dDebug
 Container full of Debug tools  
+
+## Xephyr  
+> Xephyr is a nested X server that runs as an X application  
+> https://wiki.archlinux.org/index.php/Xephyr  
+
+This is my favorite way of using a container like a full blown virtual machine.  Refer to the README, using Kali as an example.  
