@@ -6,6 +6,7 @@ This is my favorite way of using a container like a full blown virtual machine.
 
 ## Requirements  
 `xhost +local:`  
+Root level privileges.  This thing can get messy.  No support for Reverse TCP/Tunneling, gotta figure it out.  
 
 ## Files  
 `CascadiaCodePL` - I enjoy this font.  Save it to the fonts folder for use.  
